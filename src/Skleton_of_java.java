@@ -9,4 +9,5 @@ class Skleton_of_java {                                         //calss declared
 //      static --> this method is part of calss itself rather than an instance of calss
 //      void   --> there is no return type of this method
 //      main   --> name of class
-//      String args --> aceept parameter as string
+//      String args --> accept parameter as string
+
