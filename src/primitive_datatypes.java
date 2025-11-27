@@ -6,7 +6,7 @@ public class primitive_datatypes {
 
         int a = 10;
         System.out.println(a);
-        System.out.println( Integer.MIN_VALUE);  
+        System.out.println( Integer.MIN_VALUE);
         System.out.println( Integer.MAX_VALUE);
 
         //DECIMAL VALUE
