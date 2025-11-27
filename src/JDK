@@ -1,0 +1,51 @@
+
+    THIS HAPPENS WHEN YOU CREATE FILE
+
+        let assume we have a java file
+        --> test.java
+
+         1)--This java file will first compile by --> javac
+            |> javac convert code into  machine code ( platform independent )
+            |> platform independent means it can run in mac, window , linux systems also
+         2)--Then its gets interpretation( line by line ) by JVM ( Java virtual machine )
+            |> JVM interpretates the bytecode into machine code( platform dependent )
+            |> Machine code in bytes
+
+________________________________________________________________________________________________________________________
+
+    1. JVM (Java Virtual Machine)
+
+    JVM = Runs your compiled Java code.
+    Core jobs->
+    Converts bytecode → machine code
+    Executes the program
+    Manages memory (heap/stack, garbage collection)
+    Loads classes
+
+    You can’t write Java with just JVM.
+    You can only run Java programs with it.
+________________________________________________________________________________________________________________________
+    2. JRE (Java Runtime Environment)
+
+    JRE = JVM + libraries needed to run Java
+    Contains:
+    JVM
+    Core Java libraries
+    Runtime files
+    we use JRE to run Java apps.
+    we cannot compile Java code with it.
+
+    JRE = JVM + standard classes
+    JVM = execution engine only
+________________________________________________________________________________________________________________________
+    3. JDK (Java Development Kit)
+
+    JDK = JRE + tools for developers.
+    Contains:
+    JRE
+    JVM
+    Compiler (javac)
+    Debugge
+    Packaging tools
+
+    If you want to write Java, compile Java, or build apps → you need JDK.
