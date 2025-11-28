@@ -1,0 +1,39 @@
+                                                    OOPS
+                                          Object Oriented Programming
+                                                      |
+           -----------------------------------------------------------------------------------
+           |                         |                           |                            |
+          POP                       OOP                      Functional                 Declarative
+   Procedure Oriented         Object Oriented
+      Programning               Programing
+
+
+
+POP--> In this programing everyting is function and a Gloabal data is shared across functions
+        security is very low
+        not for large programs
+
+OOP--> In this programing we deal with objects that mirriors real life
+       eg:- a doctor, a box, a teacher, a person;
+
+    Properties :-
+
+                   1) ENSACAPSUALATION :- Wrapping the data member and member funtion into single entity
+                                        Like - class, methods
+
+                   2) INHERITANCE :- Taking properties of parent class into child class
+
+                   3) POLYMORPHISM :- More than one form
+                                      Handeling different types of work and objects
+                                                        or
+                                      Handeling different types of data member or methods with one system
+
+                   4) CLASS :- Class is a blueprint or structure that have data and methods for that object
+
+                   5) OBJECT :- Object is an actual instance of that class that represent actul entity of that class
+
+                   6) For class no memory is allocated it is logical thing
+
+                   7) Analogy for object and class :-  Map of house is class
+                                                       Actual house is object
+
