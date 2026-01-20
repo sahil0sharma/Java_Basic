@@ -10,7 +10,7 @@ public class QUESTION_SERVICE {
             questions_array[0] = new QUESTION(1, "size if int", "2" , "4", "6", "8", "4");
             questions_array[1] = new QUESTION(2, "size if char", "2" , "4", "6", "8", "2");
             questions_array[2] = new QUESTION(3, "size if double", "2" , "4", "6", "8", "8");
-            questions_array[3] = new QUESTION(4, "size if long", "2" , "4", "6", "8", "6");
+            questions_array[3] = new QUESTION(4, "size if long", "2" , "4", "6", "8", "8");
             questions_array[4] = new QUESTION(5, "size if boolean", "2" , "4", "6", "8", "4");
         }
 
