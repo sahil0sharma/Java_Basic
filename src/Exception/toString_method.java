@@ -3,23 +3,28 @@ package Exception;
 
 class test {
 
+    public String name;
+    public int age;
+
+    public test(String name, int age) {
+        this.name = name;
+        this.age = age;
+    }
+
     @Override
     public String toString() {
-        return "i am a text ";
+        return "Name : " + name + " Age : " + age;
     }
 }
 public class toString_method {
     public static void main(String[] args) {
 
-        int[] arr = {1,2,3,4};
+        // toString is a method of object class
+        // in java implicitly every or most of class inherit object class
+        // and some override too
 
-        try {
-            System.out.println(arr[5]);
-        } catch (ArrayIndexOutOfBoundsException e){
-            System.out.println(e);
-        } catch (Exception e) {
-            System.out.println(e);
-        }
-        
+        test t = new test("Sahil" ,19);
+        System.out.println(t);
+
     }
 }
